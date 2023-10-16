@@ -6,6 +6,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Installation
+
+Follow these steps to set up your development environment:
+
+1. Clone the repository: git clone https://github.com/Aponshaha/SPLYZA_WEB_CHALLENGE.git
+
+2. Navigate to the project directory: cd splyza
+
+3. Install the project's dependencies: npm install
+
+## Running the Application
+
+To start Splyza in development mode, execute the following command:
+
+ng serve
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
