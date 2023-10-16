@@ -30,8 +30,6 @@ This project includes a number of helper scripts for common tasks:
 
 - `npm run lint-fix`: Similar to `npm run lint`, but attempts to automatically fix any problems that it finds. This script also invokes Prettier to ensure that your code follows the formatting standards defined in your project.
 
-Remember to use these scripts to your advantage to streamline your development process, enforce code quality, and prevent common issues. They are an integral part of modern web development workflows.
-
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
