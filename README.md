@@ -14,6 +14,24 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Development Scripts
+
+This project includes a number of helper scripts for common tasks:
+
+- `npm run start`: This command launches the development server (`ng serve`) and opens your application in the default web browser. The server will automatically reload upon detecting changes to the source files.
+
+- `npm run build`: Use this script to build the Angular application. It compiles all the components and assets and places the output in the `dist/` directory. By default, this script builds your app in production mode, meaning that the code will be minified and optimized for deployment.
+
+- `npm run watch`: This initiates the build process and then continues to watch for changes in the source files. Upon detecting changes, it will automatically rebuild the application with the updated files. This is particularly useful during development when you're making frequent changes to the code.
+
+- `npm run test`: This launches the test runner and executes all tests defined in the project. Ensure that you've written tests for your components and services to make effective use of this script.
+
+- `npm run lint`: Runs ESLint on the project files, providing feedback on potential issues found in your TypeScript code. This is a good practice to run before committing code.
+
+- `npm run lint-fix`: Similar to `npm run lint`, but attempts to automatically fix any problems that it finds. This script also invokes Prettier to ensure that your code follows the formatting standards defined in your project.
+
+Remember to use these scripts to your advantage to streamline your development process, enforce code quality, and prevent common issues. They are an integral part of modern web development workflows.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
